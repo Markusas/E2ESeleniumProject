@@ -1,0 +1,5 @@
+16:29:04.898 [TestNG-tests-1] INFO  org.E2E.test.ValidatePageTitle - Successfully validated page title
+16:29:08.859 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:29:14.739 [TestNG-tests-1] INFO  org.E2E.base.Base - Driver is initialized
+16:29:18.355 [TestNG-tests-1] INFO  org.E2E.base.Base - Navigated to home page
+16:29:18.379 [TestNG-tests-1] INFO  org.E2E.test.ValidatePageTitle - Successfully validated page title

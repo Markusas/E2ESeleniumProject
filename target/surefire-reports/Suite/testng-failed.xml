@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.E2E.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating page title(failed)" verbose="0">
+    <classes>
+      <class name="org.E2E.test.ValidatePageTitle">
+        <methods>
+          <include name="quickTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- org.E2E.test.ValidatePageTitle -->
+    </classes>
+  </test> <!-- Validating page title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

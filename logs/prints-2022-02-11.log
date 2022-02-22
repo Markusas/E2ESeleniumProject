@@ -1,0 +1,6 @@
+09:56:24.318 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+09:56:24.801 [TestNG-tests-1] INFO  org.E2E.base.Base - Navigated to home page
+09:56:24.864 [TestNG-tests-1] INFO  org.E2E.test.ValidatePageTitle - Successfully validated page title
+09:56:25.044 [TestNG-tests-3] INFO  org.E2E.base.Base - Navigated to home page
+09:56:25.447 [TestNG-tests-3] INFO  org.E2E.test.ValidateNavbar - Is displayed
+09:56:25.450 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

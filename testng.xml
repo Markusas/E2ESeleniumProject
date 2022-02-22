@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="org.E2E.utils.Listeners"/>
+    </listeners>
+    <test name="Validating page title">
+        <classes>
+            <class name="org.E2E.test.ValidatePageTitle"/>
+        </classes>
+    </test>
+    <test name="Validating text in home page">
+        <classes>
+            <class name="org.E2E.test.ValidateFeaturedTextHomePage"/>
+        </classes>
+    </test>
+    <test name="Validating navbar in home page">
+        <classes>
+            <class name="org.E2E.test.ValidateNavbar"/>
+        </classes>
+    </test>
+</suite>
