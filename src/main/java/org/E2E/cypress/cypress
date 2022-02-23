@@ -1,0 +1,36 @@
+/// <reference types="Cypress" />
+
+describe('My Second Test Suite', function()
+{
+
+it('My FirstTest case',function() {
+
+//Check boxes
+cy.visit("https://rahulshettyacademy.com/AutomationPractice/")
+
+//cy.get('div.mouse-hover-content').invoke('show')
+cy.contains('Top').click({force: true})
+cy.url().should('include','top')
+})
+
+
+})
+
+tagname#idname							Navigating to url - visit
+.classname	.search-keyword						Through command line, Cypress runs in headless in electron
+							Update configurations in cypress.json which over rides existing behaviour.
+tagname[attribute=value]	input[type='search']						Cypress supports Css selectors only
+	form input						We can see what happened on every step with screenshot and error messages in cypress
+							how to handle click, type, text()
+	tr td:nth-child(2)						Iterating over the aray of web elements using each
+							Cypress is asynchronus in nature and there is no guarantee in sequence of execution, but cypress takes care of it
+							Promise comes with rejection, resolved,pending
+							.then()
+	rahulshettyacademy.com						Non cypress commands cannot resolve promise by themselves. We need to manually resolve it by then ()
+	qaclickacademy.com						Aliasing to reuse locators-
+							Cypress auto accepts alerts and pop ups
+							Cypress have capability of browser events. window:alert is the event which get fired on alert open
+							So you are firing the event through cypress to get access to that alert
+							Cypress have ability to manipulate the DOM-
+							Yes you can traverse to sibling with next() and it works only on get
+							Mouse hover events are not supported in cypres. Alternatively use jquery or force click
